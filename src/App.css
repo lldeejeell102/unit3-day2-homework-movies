@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.screen{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-block h1 {
+  /* background-color: purple; */
+  color: whitesmoke;
+  text-shadow:
+    3px 3px 2px #392F5A,
+    -3px 3px 2px #392F5A,
+    -3px -3px 0 #392F5A,
+    3px -3px 0 #392F5A;
+    /* -webkit-text-stroke: 1.5px #392F5A; */
+  text-decoration: underline;
+  text-decoration-color: #392F5A;
+  text-decoration-thickness: 0.25rem;
+
+}
+
+.movie-block h2 {
+  text-decoration: underline;
+  text-decoration-color: #6FD08C;
+  text-decoration-thickness: 0.25rem;
+}
